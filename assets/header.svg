@@ -11,7 +11,16 @@
     </clipPath>
 
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0A1020" /><stop offset="50%" stop-color="#0E1B2F" /><stop offset="100%" stop-color="#080D1A" />
+      <stop offset="0%" stop-color="#0A1020">
+        <animate attributeName="stop-color" values="#0A1020;#12203F;#0B2436;#161334;#0A1020" dur="16s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1; 0.45 0 0.55 1; 0.45 0 0.55 1" />
+      </stop>
+      <stop offset="50%" stop-color="#0E1B2F">
+        <animate attributeName="stop-color" values="#0E1B2F;#1A2C56;#123449;#231a4d;#0E1B2F" dur="16s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1; 0.45 0 0.55 1; 0.45 0 0.55 1" />
+      </stop>
+      <stop offset="100%" stop-color="#080D1A">
+        <animate attributeName="stop-color" values="#080D1A;#0D1428;#0A1E26;#120F2A;#080D1A" dur="16s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1; 0.45 0 0.55 1; 0.45 0 0.55 1" />
+      </stop>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 0.5 0.5; 360 0.5 0.5" dur="48s" repeatCount="indefinite" />
     </linearGradient>
 
     <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
@@ -28,12 +37,56 @@
     <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
       <feGaussianBlur stdDeviation="3" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
     </filter>
-    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2F81F7" /><stop offset="50%" stop-color="#7FD8FF" /><stop offset="100%" stop-color="#21D4A8" />
+    <linearGradient id="beam1" gradientUnits="userSpaceOnUse" x1="240.5" y1="196" x2="330.5" y2="196" spreadMethod="repeat">
+      <stop offset="0" stop-color="#1E3557" />
+      <stop offset="0.22" stop-color="#2F81F7" />
+      <stop offset="0.44" stop-color="#DCF6FF" />
+      <stop offset="0.66" stop-color="#21D4A8" />
+      <stop offset="1" stop-color="#1E3557" />
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0; 90 0" dur="0.9s" repeatCount="indefinite" />
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 285.5 196; 360 285.5 196" dur="3.4s" repeatCount="indefinite" additive="sum" />
+    </linearGradient>
+    <linearGradient id="beam2" gradientUnits="userSpaceOnUse" x1="411" y1="196" x2="501" y2="196" spreadMethod="repeat">
+      <stop offset="0" stop-color="#1E3557" />
+      <stop offset="0.22" stop-color="#2F81F7" />
+      <stop offset="0.44" stop-color="#DCF6FF" />
+      <stop offset="0.66" stop-color="#21D4A8" />
+      <stop offset="1" stop-color="#1E3557" />
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0; 90 0" dur="1.1s" repeatCount="indefinite" />
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 456 196; 360 456 196" dur="4.2s" repeatCount="indefinite" additive="sum" />
+    </linearGradient>
+    <linearGradient id="beam3" gradientUnits="userSpaceOnUse" x1="576" y1="196" x2="666" y2="196" spreadMethod="repeat">
+      <stop offset="0" stop-color="#1E3557" />
+      <stop offset="0.22" stop-color="#2F81F7" />
+      <stop offset="0.44" stop-color="#DCF6FF" />
+      <stop offset="0.66" stop-color="#21D4A8" />
+      <stop offset="1" stop-color="#1E3557" />
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0; 90 0" dur="0.8s" repeatCount="indefinite" />
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 621 196; 360 621 196" dur="3s" repeatCount="indefinite" additive="sum" />
     </linearGradient>
 
     <filter id="beamglow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="2.2" result="g" /><feMerge><feMergeNode in="g" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#060B14" stop-opacity="0.22" />
+      <stop offset="0.16" stop-color="#060B14" stop-opacity="0.66" />
+      <stop offset="0.74" stop-color="#060B14" stop-opacity="0.62" />
+      <stop offset="1" stop-color="#060B14" stop-opacity="0.18" />
+    </linearGradient>
+    <linearGradient id="nameShine" gradientUnits="userSpaceOnUse" x1="220" y1="0" x2="420" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#E4EDF8" />
+      <stop offset="0.34" stop-color="#FFFFFF" />
+      <stop offset="0.46" stop-color="#FFFFFF" />
+      <stop offset="0.72" stop-color="#DFE9F6" />
+      <stop offset="1" stop-color="#E4EDF8" />
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0; 200 0" dur="3.2s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <filter id="nameGlow" x="-25%" y="-80%" width="150%" height="300%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3.2" result="b" />
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.78  0 0 0 0 1  0 0 0 0.32 0" result="tint" />
+      <feMerge><feMergeNode in="tint" /><feMergeNode in="SourceGraphic" /></feMerge>
     </filter>
   </defs>
 
@@ -41,45 +94,415 @@
     <rect width="900" height="240" fill="url(#bg)" />
 
     <g opacity="0.5" filter="url(#soft)">
-      <circle cx="190" cy="70" r="130" fill="#2F81F7" opacity="0.55">
-        <animateTransform attributeName="transform" type="translate" values="0,0; 70,40; -30,25; 0,0" dur="17s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1" />
+      <circle cx="180" cy="80" r="145" fill="#2F81F7" opacity="0.6">
+        <animateTransform attributeName="transform" type="translate" values="0,0; 160,55; 30,-45; -70,45; 0,0" dur="9s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1" />
       </circle>
-      <circle cx="700" cy="180" r="150" fill="#7C5CFF" opacity="0.45">
-        <animateTransform attributeName="transform" type="translate" values="0,0; -80,-45; 40,-20; 0,0" dur="21s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1" />
+      <circle cx="700" cy="170" r="160" fill="#7C5CFF" opacity="0.55">
+        <animateTransform attributeName="transform" type="translate" values="0,0; -190,-65; -40,55; 95,-30; 0,0" dur="11s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1" />
       </circle>
-      <circle cx="470" cy="230" r="120" fill="#21D4A8" opacity="0.38">
-        <animateTransform attributeName="transform" type="translate" values="0,0; 50,-55; -60,-20; 0,0" dur="25s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1" />
+      <circle cx="460" cy="225" r="135" fill="#21D4A8" opacity="0.45">
+        <animateTransform attributeName="transform" type="translate" values="0,0; 130,-95; -150,-25; 45,60; 0,0" dur="13s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1" />
+      </circle>
+      <circle cx="340" cy="30" r="115" fill="#F0B429" opacity="0.2">
+        <animateTransform attributeName="transform" type="translate" values="0,0; -100,90; 140,25; -35,-55; 0,0" dur="15s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1" />
       </circle>
     </g>
+
+    <g font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" opacity="0.62">
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-202; 0,260" dur="6.4s" begin="3.1s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="6.4s" begin="3.1s" repeatCount="indefinite" />
+        <text x="22" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="22" y="14" fill="#26D07C" opacity="0.20">0</text>
+        <text x="22" y="28" fill="#26D07C" opacity="0.24">0</text>
+        <text x="22" y="42" fill="#26D07C" opacity="0.29">1</text>
+        <text x="22" y="56" fill="#26D07C" opacity="0.33">1</text>
+        <text x="22" y="70" fill="#26D07C" opacity="0.37">0</text>
+        <text x="22" y="84" fill="#26D07C" opacity="0.41">1</text>
+        <text x="22" y="98" fill="#26D07C" opacity="0.45">0</text>
+        <text x="22" y="112" fill="#26D07C" opacity="0.49">0</text>
+        <text x="22" y="126" fill="#26D07C" opacity="0.54">0</text>
+        <text x="22" y="140" fill="#26D07C" opacity="0.58">0</text>
+        <text x="22" y="154" fill="#26D07C" opacity="0.62">1</text>
+        <text x="22" y="168" fill="#C8FFE4" opacity="0.95">1</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-160; 0,260" dur="11.0s" begin="8.1s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="11.0s" begin="8.1s" repeatCount="indefinite" />
+        <text x="52" y="0" fill="#26D07C" opacity="0.16">0</text>
+        <text x="52" y="14" fill="#26D07C" opacity="0.22">0</text>
+        <text x="52" y="28" fill="#26D07C" opacity="0.27">0</text>
+        <text x="52" y="42" fill="#26D07C" opacity="0.33">1</text>
+        <text x="52" y="56" fill="#26D07C" opacity="0.38">1</text>
+        <text x="52" y="70" fill="#26D07C" opacity="0.44">1</text>
+        <text x="52" y="84" fill="#26D07C" opacity="0.49">0</text>
+        <text x="52" y="98" fill="#26D07C" opacity="0.55">0</text>
+        <text x="52" y="112" fill="#26D07C" opacity="0.60">0</text>
+        <text x="52" y="126" fill="#C8FFE4" opacity="0.95">0</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-174; 0,260" dur="7.1s" begin="3.7s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="7.1s" begin="3.7s" repeatCount="indefinite" />
+        <text x="79" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="79" y="14" fill="#26D07C" opacity="0.21">0</text>
+        <text x="79" y="28" fill="#26D07C" opacity="0.26">0</text>
+        <text x="79" y="42" fill="#26D07C" opacity="0.31">1</text>
+        <text x="79" y="56" fill="#26D07C" opacity="0.36">1</text>
+        <text x="79" y="70" fill="#26D07C" opacity="0.41">0</text>
+        <text x="79" y="84" fill="#26D07C" opacity="0.46">1</text>
+        <text x="79" y="98" fill="#26D07C" opacity="0.51">0</text>
+        <text x="79" y="112" fill="#26D07C" opacity="0.56">0</text>
+        <text x="79" y="126" fill="#26D07C" opacity="0.61">0</text>
+        <text x="79" y="140" fill="#C8FFE4" opacity="0.95">0</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-90; 0,260" dur="10.6s" begin="3.1s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="10.6s" begin="3.1s" repeatCount="indefinite" />
+        <text x="116" y="0" fill="#26D07C" opacity="0.16">0</text>
+        <text x="116" y="14" fill="#26D07C" opacity="0.29">1</text>
+        <text x="116" y="28" fill="#26D07C" opacity="0.41">1</text>
+        <text x="116" y="42" fill="#26D07C" opacity="0.54">0</text>
+        <text x="116" y="56" fill="#C8FFE4" opacity="0.95">1</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-160; 0,260" dur="14.7s" begin="3.1s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="14.7s" begin="3.1s" repeatCount="indefinite" />
+        <text x="145" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="145" y="14" fill="#26D07C" opacity="0.22">1</text>
+        <text x="145" y="28" fill="#26D07C" opacity="0.27">0</text>
+        <text x="145" y="42" fill="#26D07C" opacity="0.33">0</text>
+        <text x="145" y="56" fill="#26D07C" opacity="0.38">1</text>
+        <text x="145" y="70" fill="#26D07C" opacity="0.44">0</text>
+        <text x="145" y="84" fill="#26D07C" opacity="0.49">1</text>
+        <text x="145" y="98" fill="#26D07C" opacity="0.55">1</text>
+        <text x="145" y="112" fill="#26D07C" opacity="0.60">1</text>
+        <text x="145" y="126" fill="#C8FFE4" opacity="0.95">1</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-146; 0,260" dur="8.4s" begin="6.6s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="8.4s" begin="6.6s" repeatCount="indefinite" />
+        <text x="181" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="181" y="14" fill="#26D07C" opacity="0.22">0</text>
+        <text x="181" y="28" fill="#26D07C" opacity="0.29">0</text>
+        <text x="181" y="42" fill="#26D07C" opacity="0.35">0</text>
+        <text x="181" y="56" fill="#26D07C" opacity="0.41">1</text>
+        <text x="181" y="70" fill="#26D07C" opacity="0.47">1</text>
+        <text x="181" y="84" fill="#26D07C" opacity="0.54">0</text>
+        <text x="181" y="98" fill="#26D07C" opacity="0.60">1</text>
+        <text x="181" y="112" fill="#C8FFE4" opacity="0.95">0</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-188; 0,260" dur="8.6s" begin="5.2s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="8.6s" begin="5.2s" repeatCount="indefinite" />
+        <text x="207" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="207" y="14" fill="#26D07C" opacity="0.21">1</text>
+        <text x="207" y="28" fill="#26D07C" opacity="0.25">0</text>
+        <text x="207" y="42" fill="#26D07C" opacity="0.30">1</text>
+        <text x="207" y="56" fill="#26D07C" opacity="0.34">0</text>
+        <text x="207" y="70" fill="#26D07C" opacity="0.39">1</text>
+        <text x="207" y="84" fill="#26D07C" opacity="0.43">1</text>
+        <text x="207" y="98" fill="#26D07C" opacity="0.48">0</text>
+        <text x="207" y="112" fill="#26D07C" opacity="0.52">1</text>
+        <text x="207" y="126" fill="#26D07C" opacity="0.57">0</text>
+        <text x="207" y="140" fill="#26D07C" opacity="0.61">1</text>
+        <text x="207" y="154" fill="#C8FFE4" opacity="0.95">1</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-188; 0,260" dur="10.1s" begin="1.1s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="10.1s" begin="1.1s" repeatCount="indefinite" />
+        <text x="245" y="0" fill="#26D07C" opacity="0.16">0</text>
+        <text x="245" y="14" fill="#26D07C" opacity="0.21">0</text>
+        <text x="245" y="28" fill="#26D07C" opacity="0.25">0</text>
+        <text x="245" y="42" fill="#26D07C" opacity="0.30">1</text>
+        <text x="245" y="56" fill="#26D07C" opacity="0.34">1</text>
+        <text x="245" y="70" fill="#26D07C" opacity="0.39">1</text>
+        <text x="245" y="84" fill="#26D07C" opacity="0.43">1</text>
+        <text x="245" y="98" fill="#26D07C" opacity="0.48">1</text>
+        <text x="245" y="112" fill="#26D07C" opacity="0.52">1</text>
+        <text x="245" y="126" fill="#26D07C" opacity="0.57">1</text>
+        <text x="245" y="140" fill="#26D07C" opacity="0.61">1</text>
+        <text x="245" y="154" fill="#C8FFE4" opacity="0.95">0</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-146; 0,260" dur="5.1s" begin="5.9s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="5.1s" begin="5.9s" repeatCount="indefinite" />
+        <text x="274" y="0" fill="#26D07C" opacity="0.16">0</text>
+        <text x="274" y="14" fill="#26D07C" opacity="0.22">1</text>
+        <text x="274" y="28" fill="#26D07C" opacity="0.29">0</text>
+        <text x="274" y="42" fill="#26D07C" opacity="0.35">1</text>
+        <text x="274" y="56" fill="#26D07C" opacity="0.41">0</text>
+        <text x="274" y="70" fill="#26D07C" opacity="0.47">0</text>
+        <text x="274" y="84" fill="#26D07C" opacity="0.54">1</text>
+        <text x="274" y="98" fill="#26D07C" opacity="0.60">1</text>
+        <text x="274" y="112" fill="#C8FFE4" opacity="0.95">1</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-118; 0,260" dur="6.0s" begin="10.1s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="6.0s" begin="10.1s" repeatCount="indefinite" />
+        <text x="306" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="306" y="14" fill="#26D07C" opacity="0.24">0</text>
+        <text x="306" y="28" fill="#26D07C" opacity="0.33">1</text>
+        <text x="306" y="42" fill="#26D07C" opacity="0.41">1</text>
+        <text x="306" y="56" fill="#26D07C" opacity="0.49">1</text>
+        <text x="306" y="70" fill="#26D07C" opacity="0.58">1</text>
+        <text x="306" y="84" fill="#C8FFE4" opacity="0.95">1</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-160; 0,260" dur="11.4s" begin="10.8s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="11.4s" begin="10.8s" repeatCount="indefinite" />
+        <text x="334" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="334" y="14" fill="#26D07C" opacity="0.22">1</text>
+        <text x="334" y="28" fill="#26D07C" opacity="0.27">0</text>
+        <text x="334" y="42" fill="#26D07C" opacity="0.33">0</text>
+        <text x="334" y="56" fill="#26D07C" opacity="0.38">0</text>
+        <text x="334" y="70" fill="#26D07C" opacity="0.44">1</text>
+        <text x="334" y="84" fill="#26D07C" opacity="0.49">0</text>
+        <text x="334" y="98" fill="#26D07C" opacity="0.55">0</text>
+        <text x="334" y="112" fill="#26D07C" opacity="0.60">1</text>
+        <text x="334" y="126" fill="#C8FFE4" opacity="0.95">1</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-90; 0,260" dur="15.0s" begin="4.8s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="15.0s" begin="4.8s" repeatCount="indefinite" />
+        <text x="375" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="375" y="14" fill="#26D07C" opacity="0.29">1</text>
+        <text x="375" y="28" fill="#26D07C" opacity="0.41">0</text>
+        <text x="375" y="42" fill="#26D07C" opacity="0.54">1</text>
+        <text x="375" y="56" fill="#C8FFE4" opacity="0.95">1</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-118; 0,260" dur="6.8s" begin="8.3s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="6.8s" begin="8.3s" repeatCount="indefinite" />
+        <text x="401" y="0" fill="#26D07C" opacity="0.16">0</text>
+        <text x="401" y="14" fill="#26D07C" opacity="0.24">1</text>
+        <text x="401" y="28" fill="#26D07C" opacity="0.33">1</text>
+        <text x="401" y="42" fill="#26D07C" opacity="0.41">0</text>
+        <text x="401" y="56" fill="#26D07C" opacity="0.49">1</text>
+        <text x="401" y="70" fill="#26D07C" opacity="0.58">0</text>
+        <text x="401" y="84" fill="#C8FFE4" opacity="0.95">0</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-118; 0,260" dur="9.2s" begin="3.4s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="9.2s" begin="3.4s" repeatCount="indefinite" />
+        <text x="435" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="435" y="14" fill="#26D07C" opacity="0.24">1</text>
+        <text x="435" y="28" fill="#26D07C" opacity="0.33">1</text>
+        <text x="435" y="42" fill="#26D07C" opacity="0.41">1</text>
+        <text x="435" y="56" fill="#26D07C" opacity="0.49">0</text>
+        <text x="435" y="70" fill="#26D07C" opacity="0.58">0</text>
+        <text x="435" y="84" fill="#C8FFE4" opacity="0.95">0</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-188; 0,260" dur="12.5s" begin="11.0s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="12.5s" begin="11.0s" repeatCount="indefinite" />
+        <text x="463" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="463" y="14" fill="#26D07C" opacity="0.21">1</text>
+        <text x="463" y="28" fill="#26D07C" opacity="0.25">1</text>
+        <text x="463" y="42" fill="#26D07C" opacity="0.30">1</text>
+        <text x="463" y="56" fill="#26D07C" opacity="0.34">1</text>
+        <text x="463" y="70" fill="#26D07C" opacity="0.39">0</text>
+        <text x="463" y="84" fill="#26D07C" opacity="0.43">1</text>
+        <text x="463" y="98" fill="#26D07C" opacity="0.48">1</text>
+        <text x="463" y="112" fill="#26D07C" opacity="0.52">0</text>
+        <text x="463" y="126" fill="#26D07C" opacity="0.57">1</text>
+        <text x="463" y="140" fill="#26D07C" opacity="0.61">1</text>
+        <text x="463" y="154" fill="#C8FFE4" opacity="0.95">0</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-146; 0,260" dur="11.6s" begin="3.7s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="11.6s" begin="3.7s" repeatCount="indefinite" />
+        <text x="497" y="0" fill="#26D07C" opacity="0.16">0</text>
+        <text x="497" y="14" fill="#26D07C" opacity="0.22">1</text>
+        <text x="497" y="28" fill="#26D07C" opacity="0.29">0</text>
+        <text x="497" y="42" fill="#26D07C" opacity="0.35">0</text>
+        <text x="497" y="56" fill="#26D07C" opacity="0.41">1</text>
+        <text x="497" y="70" fill="#26D07C" opacity="0.47">0</text>
+        <text x="497" y="84" fill="#26D07C" opacity="0.54">0</text>
+        <text x="497" y="98" fill="#26D07C" opacity="0.60">0</text>
+        <text x="497" y="112" fill="#C8FFE4" opacity="0.95">0</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-174; 0,260" dur="13.2s" begin="10.5s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="13.2s" begin="10.5s" repeatCount="indefinite" />
+        <text x="532" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="532" y="14" fill="#26D07C" opacity="0.21">0</text>
+        <text x="532" y="28" fill="#26D07C" opacity="0.26">0</text>
+        <text x="532" y="42" fill="#26D07C" opacity="0.31">0</text>
+        <text x="532" y="56" fill="#26D07C" opacity="0.36">0</text>
+        <text x="532" y="70" fill="#26D07C" opacity="0.41">1</text>
+        <text x="532" y="84" fill="#26D07C" opacity="0.46">0</text>
+        <text x="532" y="98" fill="#26D07C" opacity="0.51">1</text>
+        <text x="532" y="112" fill="#26D07C" opacity="0.56">1</text>
+        <text x="532" y="126" fill="#26D07C" opacity="0.61">1</text>
+        <text x="532" y="140" fill="#C8FFE4" opacity="0.95">1</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-174; 0,260" dur="6.6s" begin="6.5s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="6.6s" begin="6.5s" repeatCount="indefinite" />
+        <text x="558" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="558" y="14" fill="#26D07C" opacity="0.21">0</text>
+        <text x="558" y="28" fill="#26D07C" opacity="0.26">1</text>
+        <text x="558" y="42" fill="#26D07C" opacity="0.31">1</text>
+        <text x="558" y="56" fill="#26D07C" opacity="0.36">0</text>
+        <text x="558" y="70" fill="#26D07C" opacity="0.41">1</text>
+        <text x="558" y="84" fill="#26D07C" opacity="0.46">0</text>
+        <text x="558" y="98" fill="#26D07C" opacity="0.51">0</text>
+        <text x="558" y="112" fill="#26D07C" opacity="0.56">0</text>
+        <text x="558" y="126" fill="#26D07C" opacity="0.61">1</text>
+        <text x="558" y="140" fill="#C8FFE4" opacity="0.95">0</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-202; 0,260" dur="10.8s" begin="6.3s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="10.8s" begin="6.3s" repeatCount="indefinite" />
+        <text x="599" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="599" y="14" fill="#26D07C" opacity="0.20">0</text>
+        <text x="599" y="28" fill="#26D07C" opacity="0.24">1</text>
+        <text x="599" y="42" fill="#26D07C" opacity="0.29">1</text>
+        <text x="599" y="56" fill="#26D07C" opacity="0.33">1</text>
+        <text x="599" y="70" fill="#26D07C" opacity="0.37">1</text>
+        <text x="599" y="84" fill="#26D07C" opacity="0.41">1</text>
+        <text x="599" y="98" fill="#26D07C" opacity="0.45">1</text>
+        <text x="599" y="112" fill="#26D07C" opacity="0.49">1</text>
+        <text x="599" y="126" fill="#26D07C" opacity="0.54">0</text>
+        <text x="599" y="140" fill="#26D07C" opacity="0.58">1</text>
+        <text x="599" y="154" fill="#26D07C" opacity="0.62">0</text>
+        <text x="599" y="168" fill="#C8FFE4" opacity="0.95">0</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-174; 0,260" dur="9.4s" begin="2.6s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="9.4s" begin="2.6s" repeatCount="indefinite" />
+        <text x="629" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="629" y="14" fill="#26D07C" opacity="0.21">1</text>
+        <text x="629" y="28" fill="#26D07C" opacity="0.26">1</text>
+        <text x="629" y="42" fill="#26D07C" opacity="0.31">1</text>
+        <text x="629" y="56" fill="#26D07C" opacity="0.36">1</text>
+        <text x="629" y="70" fill="#26D07C" opacity="0.41">1</text>
+        <text x="629" y="84" fill="#26D07C" opacity="0.46">0</text>
+        <text x="629" y="98" fill="#26D07C" opacity="0.51">1</text>
+        <text x="629" y="112" fill="#26D07C" opacity="0.56">0</text>
+        <text x="629" y="126" fill="#26D07C" opacity="0.61">0</text>
+        <text x="629" y="140" fill="#C8FFE4" opacity="0.95">1</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-160; 0,260" dur="9.5s" begin="11.5s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="9.5s" begin="11.5s" repeatCount="indefinite" />
+        <text x="655" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="655" y="14" fill="#26D07C" opacity="0.22">1</text>
+        <text x="655" y="28" fill="#26D07C" opacity="0.27">0</text>
+        <text x="655" y="42" fill="#26D07C" opacity="0.33">1</text>
+        <text x="655" y="56" fill="#26D07C" opacity="0.38">0</text>
+        <text x="655" y="70" fill="#26D07C" opacity="0.44">0</text>
+        <text x="655" y="84" fill="#26D07C" opacity="0.49">1</text>
+        <text x="655" y="98" fill="#26D07C" opacity="0.55">1</text>
+        <text x="655" y="112" fill="#26D07C" opacity="0.60">1</text>
+        <text x="655" y="126" fill="#C8FFE4" opacity="0.95">1</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-160; 0,260" dur="8.7s" begin="1.8s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="8.7s" begin="1.8s" repeatCount="indefinite" />
+        <text x="691" y="0" fill="#26D07C" opacity="0.16">0</text>
+        <text x="691" y="14" fill="#26D07C" opacity="0.22">0</text>
+        <text x="691" y="28" fill="#26D07C" opacity="0.27">1</text>
+        <text x="691" y="42" fill="#26D07C" opacity="0.33">0</text>
+        <text x="691" y="56" fill="#26D07C" opacity="0.38">1</text>
+        <text x="691" y="70" fill="#26D07C" opacity="0.44">0</text>
+        <text x="691" y="84" fill="#26D07C" opacity="0.49">0</text>
+        <text x="691" y="98" fill="#26D07C" opacity="0.55">0</text>
+        <text x="691" y="112" fill="#26D07C" opacity="0.60">1</text>
+        <text x="691" y="126" fill="#C8FFE4" opacity="0.95">1</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-132; 0,260" dur="6.5s" begin="2.3s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="6.5s" begin="2.3s" repeatCount="indefinite" />
+        <text x="719" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="719" y="14" fill="#26D07C" opacity="0.23">1</text>
+        <text x="719" y="28" fill="#26D07C" opacity="0.30">1</text>
+        <text x="719" y="42" fill="#26D07C" opacity="0.37">1</text>
+        <text x="719" y="56" fill="#26D07C" opacity="0.45">1</text>
+        <text x="719" y="70" fill="#26D07C" opacity="0.52">0</text>
+        <text x="719" y="84" fill="#26D07C" opacity="0.59">1</text>
+        <text x="719" y="98" fill="#C8FFE4" opacity="0.95">0</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-160; 0,260" dur="13.0s" begin="11.0s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="13.0s" begin="11.0s" repeatCount="indefinite" />
+        <text x="752" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="752" y="14" fill="#26D07C" opacity="0.22">1</text>
+        <text x="752" y="28" fill="#26D07C" opacity="0.27">0</text>
+        <text x="752" y="42" fill="#26D07C" opacity="0.33">0</text>
+        <text x="752" y="56" fill="#26D07C" opacity="0.38">0</text>
+        <text x="752" y="70" fill="#26D07C" opacity="0.44">1</text>
+        <text x="752" y="84" fill="#26D07C" opacity="0.49">1</text>
+        <text x="752" y="98" fill="#26D07C" opacity="0.55">1</text>
+        <text x="752" y="112" fill="#26D07C" opacity="0.60">0</text>
+        <text x="752" y="126" fill="#C8FFE4" opacity="0.95">1</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-146; 0,260" dur="9.2s" begin="9.6s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="9.2s" begin="9.6s" repeatCount="indefinite" />
+        <text x="784" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="784" y="14" fill="#26D07C" opacity="0.22">0</text>
+        <text x="784" y="28" fill="#26D07C" opacity="0.29">0</text>
+        <text x="784" y="42" fill="#26D07C" opacity="0.35">1</text>
+        <text x="784" y="56" fill="#26D07C" opacity="0.41">1</text>
+        <text x="784" y="70" fill="#26D07C" opacity="0.47">0</text>
+        <text x="784" y="84" fill="#26D07C" opacity="0.54">0</text>
+        <text x="784" y="98" fill="#26D07C" opacity="0.60">1</text>
+        <text x="784" y="112" fill="#C8FFE4" opacity="0.95">0</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-146; 0,260" dur="5.1s" begin="0.7s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="5.1s" begin="0.7s" repeatCount="indefinite" />
+        <text x="815" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="815" y="14" fill="#26D07C" opacity="0.22">1</text>
+        <text x="815" y="28" fill="#26D07C" opacity="0.29">1</text>
+        <text x="815" y="42" fill="#26D07C" opacity="0.35">1</text>
+        <text x="815" y="56" fill="#26D07C" opacity="0.41">0</text>
+        <text x="815" y="70" fill="#26D07C" opacity="0.47">1</text>
+        <text x="815" y="84" fill="#26D07C" opacity="0.54">0</text>
+        <text x="815" y="98" fill="#26D07C" opacity="0.60">0</text>
+        <text x="815" y="112" fill="#C8FFE4" opacity="0.95">1</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-118; 0,260" dur="13.4s" begin="3.8s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="13.4s" begin="3.8s" repeatCount="indefinite" />
+        <text x="850" y="0" fill="#26D07C" opacity="0.16">0</text>
+        <text x="850" y="14" fill="#26D07C" opacity="0.24">1</text>
+        <text x="850" y="28" fill="#26D07C" opacity="0.33">0</text>
+        <text x="850" y="42" fill="#26D07C" opacity="0.41">0</text>
+        <text x="850" y="56" fill="#26D07C" opacity="0.49">0</text>
+        <text x="850" y="70" fill="#26D07C" opacity="0.58">1</text>
+        <text x="850" y="84" fill="#C8FFE4" opacity="0.95">0</text>
+      </g>
+      <g opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0,-174; 0,260" dur="12.4s" begin="7.7s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.78;1" dur="12.4s" begin="7.7s" repeatCount="indefinite" />
+        <text x="878" y="0" fill="#26D07C" opacity="0.16">1</text>
+        <text x="878" y="14" fill="#26D07C" opacity="0.21">1</text>
+        <text x="878" y="28" fill="#26D07C" opacity="0.26">1</text>
+        <text x="878" y="42" fill="#26D07C" opacity="0.31">0</text>
+        <text x="878" y="56" fill="#26D07C" opacity="0.36">0</text>
+        <text x="878" y="70" fill="#26D07C" opacity="0.41">1</text>
+        <text x="878" y="84" fill="#26D07C" opacity="0.46">1</text>
+        <text x="878" y="98" fill="#26D07C" opacity="0.51">1</text>
+        <text x="878" y="112" fill="#26D07C" opacity="0.56">0</text>
+        <text x="878" y="126" fill="#26D07C" opacity="0.61">0</text>
+        <text x="878" y="140" fill="#C8FFE4" opacity="0.95">1</text>
+      </g>
+    </g>
+
+    <rect width="900" height="240" fill="url(#scrim)" />
 
     <rect x="-320" y="0" width="320" height="240" fill="url(#sweep)" opacity="0.06">
-      <animate attributeName="x" values="-320;900" dur="6.5s" begin="1.4s;sweep.end+5s" id="sweep" />
+      <animate attributeName="x" values="-320;900" dur="6.5s" begin="1.4s;sweep.end+2.5s" id="sweep" />
     </rect>
 
-    <g fill="#7FB2FF">
-      <circle cx="118" cy="240" r="1.6" opacity="0">
-        <animate attributeName="cy" values="240;-10" dur="11s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.15;0.8;1" dur="11s" repeatCount="indefinite" />
-      </circle>
-      <circle cx="332" cy="240" r="1.2" opacity="0">
-        <animate attributeName="cy" values="240;-10" dur="14s" begin="2.5s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0;0.6;0.6;0" keyTimes="0;0.15;0.8;1" dur="14s" begin="2.5s" repeatCount="indefinite" />
-      </circle>
-      <circle cx="596" cy="240" r="1.8" opacity="0">
-        <animate attributeName="cy" values="240;-10" dur="13s" begin="5.5s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0;0.55;0.55;0" keyTimes="0;0.15;0.8;1" dur="13s" begin="5.5s" repeatCount="indefinite" />
-      </circle>
-      <circle cx="792" cy="240" r="1.3" opacity="0">
-        <animate attributeName="cy" values="240;-10" dur="16s" begin="8s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0;0.6;0.6;0" keyTimes="0;0.15;0.8;1" dur="16s" begin="8s" repeatCount="indefinite" />
-      </circle>
-    </g>
   </g>
 
   <rect x="0.5" y="0.5" width="899" height="239" rx="18" fill="none" stroke="#1B2740" />
 
   <g font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" text-anchor="middle">
-    <text x="450" y="88" font-size="42" font-weight="700" letter-spacing="1.5" fill="#F0F6FC">
+    <text x="450" y="88" font-size="42" font-weight="700" letter-spacing="1.5" fill="url(#nameShine)" filter="url(#nameGlow)">
       MAHMOUD KHALIL
       <animate attributeName="opacity" values="0;1" dur="0.9s" begin="0.15s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" />
       <animateTransform attributeName="transform" type="translate" values="0,14;0,0" dur="0.9s" begin="0.15s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" />
@@ -129,28 +552,19 @@
     <g>
       <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.9s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" values="0,10;0,0" dur="0.7s" begin="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" />
-      <rect x="230" y="182" width="111" height="28" rx="14" fill="#132139" stroke="#25406B" />
-      <rect x="230" y="182" width="111" height="28" rx="14" fill="none" stroke="url(#beam)" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="36 217.96" filter="url(#beamglow)" opacity="0.95">
-        <animate attributeName="stroke-dashoffset" values="0;-253.96" dur="2.8s" begin="1.5s" repeatCount="indefinite" />
-      </rect>
+      <rect x="230" y="182" width="111" height="28" rx="14" fill="#132139" stroke="url(#beam1)" stroke-width="2" filter="url(#beamglow)" />
       <text x="285.5" y="200" fill="#C9D6E6">Flutter · 4 yrs</text>
     </g>
     <g>
       <animate attributeName="opacity" values="0;1" dur="0.7s" begin="1.05s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" values="0,10;0,0" dur="0.7s" begin="1.05s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" />
-      <rect x="353" y="182" width="206" height="28" rx="14" fill="#132139" stroke="#25406B" />
-      <rect x="353" y="182" width="206" height="28" rx="14" fill="none" stroke="url(#beam)" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="36 407.96" filter="url(#beamglow)" opacity="0.95">
-        <animate attributeName="stroke-dashoffset" values="0;-443.96" dur="5.4s" begin="2.1s" repeatCount="indefinite" />
-      </rect>
+      <rect x="353" y="182" width="206" height="28" rx="14" fill="#132139" stroke="url(#beam2)" stroke-width="2" filter="url(#beamglow)" />
       <text x="456" y="200" fill="#C9D6E6">500+ App Store &amp; Play releases</text>
     </g>
     <g>
       <animate attributeName="opacity" values="0;1" dur="0.7s" begin="1.2s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" values="0,10;0,0" dur="0.7s" begin="1.2s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" />
-      <rect x="571" y="182" width="100" height="28" rx="14" fill="#132139" stroke="#25406B" />
-      <rect x="571" y="182" width="100" height="28" rx="14" fill="none" stroke="url(#beam)" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="36 195.96" filter="url(#beamglow)" opacity="0.95">
-        <animate attributeName="stroke-dashoffset" values="0;-231.96" dur="2.6s" begin="2.7s" repeatCount="indefinite" />
-      </rect>
+      <rect x="571" y="182" width="100" height="28" rx="14" fill="#132139" stroke="url(#beam3)" stroke-width="2" filter="url(#beamglow)" />
       <text x="621" y="200" fill="#C9D6E6">Team Lead</text>
     </g>
   </g>
