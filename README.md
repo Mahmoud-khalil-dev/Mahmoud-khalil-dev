@@ -28,12 +28,37 @@ Flutter engineer and team lead. I work where Flutter stops and the platform begi
 
 ### Live in the stores
 
-| | | | |
-|---|---|---|---|
-| <picture><img src="assets/icons/loungeclinic.jpg" width="52" alt="Lounge Clinic app icon" /></picture> | **Lounge Clinic** | Telemedicine with real-time chat, voice and video. Sole developer, Medical category, 16+ | [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white "Lounge Clinic on the App Store")](https://apps.apple.com/ae/app/lounge-clinic/id6753281731) |
-| <picture><img src="assets/icons/teachwisefamily.jpg" width="52" alt="TeachWise Family app icon" /></picture> | **TeachWise Family** | Parent–child learning platform, Arabic RTL. Sole developer | [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white "TeachWise Family on the App Store")](https://apps.apple.com/ae/app/teachwise-family/id6754461403) [![Google Play](https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white "TeachWise Family on Google Play")](https://play.google.com/store/apps/details?id=com.teachwise.family) |
-| <picture><img src="assets/icons/alarrab.jpg" width="52" alt="Al-Arrab app icon" /></picture> | **الـعـراب** — Al-Arrab | Real-estate brokerage platform: agent client management and sales pipeline. Arabic RTL | [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white "Al-Arrab on the App Store")](https://apps.apple.com/eg/app/id6779253224) [![Google Play](https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white "Al-Arrab on Google Play")](https://play.google.com/store/apps/details?id=com.madar.alarrab) |
-| <picture><img src="assets/icons/rqeab.jpg" width="52" alt="Rqeab app icon" /></picture> | **Rqeab** — رقيب | DNS content filtering and parental control, built natively on `NetworkExtension` and `VpnService` | [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white "Rqeab on the App Store")](https://apps.apple.com/ae/app/rqeab/id6753948110) |
+<img src="assets/icons/loungeclinic.jpg" width="48" align="left" alt="Lounge Clinic app icon" />
+
+**Lounge Clinic**<br/>
+Telemedicine with real-time chat, voice and video. Sole developer, Medical category, 16+<br/>
+[![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white "Lounge Clinic on the App Store")](https://apps.apple.com/ae/app/lounge-clinic/id6753281731)
+
+<br clear="left"/>
+
+<img src="assets/icons/teachwisefamily.jpg" width="48" align="left" alt="TeachWise Family app icon" />
+
+**TeachWise Family**<br/>
+Parent–child learning platform, Arabic RTL. Sole developer<br/>
+[![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white "TeachWise Family on the App Store")](https://apps.apple.com/ae/app/teachwise-family/id6754461403) [![Google Play](https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white "TeachWise Family on Google Play")](https://play.google.com/store/apps/details?id=com.teachwise.family)
+
+<br clear="left"/>
+
+<img src="assets/icons/alarrab.jpg" width="48" align="left" alt="Al-Arrab app icon" />
+
+**الـعـراب — Al-Arrab**<br/>
+Real-estate brokerage platform: agent client management and sales pipeline. Arabic RTL<br/>
+[![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white "Al-Arrab on the App Store")](https://apps.apple.com/eg/app/id6779253224) [![Google Play](https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white "Al-Arrab on Google Play")](https://play.google.com/store/apps/details?id=com.madar.alarrab)
+
+<br clear="left"/>
+
+<img src="assets/icons/rqeab.jpg" width="48" align="left" alt="Rqeab app icon" />
+
+**Rqeab — رقيب**<br/>
+DNS content filtering and parental control, built natively on `NetworkExtension` and `VpnService`<br/>
+[![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white "Rqeab on the App Store")](https://apps.apple.com/ae/app/rqeab/id6753948110)
+
+<br clear="left"/>
 
 **Also shipped, clients under NDA** — [KUTHB](https://play.google.com/store/apps/details?id=com.trujenaapp.kuthb) · [Elegance Pluss](https://play.google.com/store/apps/details?id=com.trujenaapp.elegancepluss) · Multi-vendor e-commerce platform · A multi-tenant white-label platform behind 500+ client builds across both stores
 
