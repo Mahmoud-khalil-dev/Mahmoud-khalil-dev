@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 220" width="420" height="220" role="img" aria-label="4 years in production, 4+ flagship products, 500+ live on stores, 6 codebases behind them">
+  <title>4 years in production · 4+ flagship products · 500+ live on stores · 6 codebases behind them</title>
+
+  <defs>
+    <linearGradient id="mb1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2F81F7" stop-opacity="0" /><stop offset="50%" stop-color="#58A6FF" /><stop offset="100%" stop-color="#2F81F7" stop-opacity="0" /></linearGradient>
+    <linearGradient id="mb2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7C5CFF" stop-opacity="0" /><stop offset="50%" stop-color="#A08BFF" /><stop offset="100%" stop-color="#7C5CFF" stop-opacity="0" /></linearGradient>
+    <linearGradient id="mb3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#21D4A8" stop-opacity="0" /><stop offset="50%" stop-color="#4FE7C1" /><stop offset="100%" stop-color="#21D4A8" stop-opacity="0" /></linearGradient>
+    <linearGradient id="mb4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#F0B429" stop-opacity="0" /><stop offset="50%" stop-color="#FFCF5C" /><stop offset="100%" stop-color="#F0B429" stop-opacity="0" /></linearGradient>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="419" height="219" rx="16" fill="#0A1220" stroke="#1B2740" />
+
+  <g stroke="#172336" stroke-width="1">
+    <line x1="210" y1="18" x2="210" y2="202" />
+    <line x1="20" y1="110" x2="400" y2="110" />
+  </g>
+
+  <g font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" text-anchor="middle">
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.1s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" values="0,8;0,0" dur="0.5s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" />
+      <text x="105" y="58" font-size="28" font-weight="700" fill="#58A6FF">4</text>
+      <text x="105" y="80" font-size="10" font-weight="600" letter-spacing="1.2" fill="#8FA1B8">YEARS IN PRODUCTION</text>
+      <rect x="72" y="90" width="66" height="2" rx="1" fill="url(#mb1)" />
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.22s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" values="0,8;0,0" dur="0.5s" begin="0.22s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" />
+      <text x="315" y="58" font-size="28" font-weight="700" fill="#A08BFF">4+</text>
+      <text x="315" y="80" font-size="10" font-weight="600" letter-spacing="1.2" fill="#8FA1B8">FLAGSHIP PRODUCTS</text>
+      <rect x="282" y="90" width="66" height="2" rx="1" fill="url(#mb2)" />
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.34s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" values="0,8;0,0" dur="0.5s" begin="0.34s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" />
+      <text x="105" y="150" font-size="28" font-weight="700" fill="#4FE7C1">500+</text>
+      <text x="105" y="172" font-size="10" font-weight="600" letter-spacing="1.2" fill="#8FA1B8">LIVE ON STORES</text>
+      <rect x="72" y="182" width="66" height="2" rx="1" fill="url(#mb3)" />
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.46s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" values="0,8;0,0" dur="0.5s" begin="0.46s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" />
+      <text x="315" y="150" font-size="28" font-weight="700" fill="#FFCF5C">6</text>
+      <text x="315" y="172" font-size="10" font-weight="600" letter-spacing="1.2" fill="#8FA1B8">CODEBASES BEHIND THEM</text>
+      <rect x="282" y="182" width="66" height="2" rx="1" fill="url(#mb4)" />
+    </g>
+
+  </g>
+</svg>
