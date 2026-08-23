@@ -1,5 +1,8 @@
 <p align="center">
-  <picture><img src="assets/header.svg" width="100%" alt="Mahmoud Khalil — Flutter Engineer and Flutter Team Lead" /></picture>
+  <picture>
+    <source media="(max-width: 680px)" srcset="assets/header-mobile.svg" />
+    <img src="assets/header.svg" width="100%" alt="Mahmoud Khalil — Flutter Engineer and Flutter Team Lead" />
+  </picture>
 </p>
 
 <p align="center">
@@ -13,7 +16,10 @@
 </p>
 
 <p align="center">
-  <picture><img src="assets/stats.svg" width="100%" alt="4 years in production · 4+ flagship products · 500+ live on stores · 6 codebases behind them" /></picture>
+  <picture>
+    <source media="(max-width: 680px)" srcset="assets/stats-mobile.svg" />
+    <img src="assets/stats.svg" width="100%" alt="4 years in production · 4+ flagship products · 500+ live on stores · 6 codebases behind them" />
+  </picture>
 </p>
 
 <picture><img src="assets/divider.svg" width="100%" alt="" /></picture>
