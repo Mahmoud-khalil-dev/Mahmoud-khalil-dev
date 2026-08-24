@@ -28,6 +28,8 @@ Flutter engineer and team lead. I work where Flutter stops and the platform begi
 
 ### Live in the stores
 
+<div dir="ltr">
+
 <img src="assets/icons/loungeclinic.jpg" width="48" align="left" alt="Lounge Clinic app icon" />
 
 **Lounge Clinic**<br/>
@@ -46,7 +48,7 @@ Parent–child learning platform, Arabic RTL. Sole developer<br/>
 
 <img src="assets/icons/alarrab.jpg" width="48" align="left" alt="Al-Arrab app icon" />
 
-**الـعـراب — Al-Arrab**<br/>
+**Al-Arrab — ⁧الـعـراب⁩**<br/>
 Real-estate brokerage platform: agent client management and sales pipeline. Arabic RTL<br/>
 [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white "Al-Arrab on the App Store")](https://apps.apple.com/eg/app/id6779253224) [![Google Play](https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white "Al-Arrab on Google Play")](https://play.google.com/store/apps/details?id=com.madar.alarrab)
 
@@ -54,9 +56,13 @@ Real-estate brokerage platform: agent client management and sales pipeline. Arab
 
 <img src="assets/icons/rqeab.jpg" width="48" align="left" alt="Rqeab app icon" />
 
-**Rqeab — رقيب**<br/>
+**Rqeab — ⁧رقيب⁩**<br/>
 DNS content filtering and parental control, built natively on `NetworkExtension` and `VpnService`<br/>
 [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white "Rqeab on the App Store")](https://apps.apple.com/ae/app/rqeab/id6753948110)
+
+<br clear="left"/>
+
+</div>
 
 <br clear="left"/>
 
