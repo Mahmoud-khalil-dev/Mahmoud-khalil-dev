@@ -40,7 +40,7 @@ Telemedicine with real-time chat, voice and video. Sole developer, Medical categ
 
 **TeachWise Family**<br/>
 Parent–child learning platform, Arabic RTL. Sole developer<br/>
-[![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white "TeachWise Family on the App Store")](https://apps.apple.com/ae/app/teachwise-family/id6754461403) [![Google Play](https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white "TeachWise Family on Google Play")](https://play.google.com/store/apps/details?id=com.teachwise.family)
+[![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white "TeachWise Family on the App Store")](https://apps.apple.com/eg/app/teachwise-family/id6754461403) [![Google Play](https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white "TeachWise Family on Google Play")](https://play.google.com/store/apps/details?id=com.teachwise.family)
 
 <br clear="left"/>
 
