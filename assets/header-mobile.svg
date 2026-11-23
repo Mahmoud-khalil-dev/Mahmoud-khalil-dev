@@ -116,8 +116,8 @@
 
     <g opacity="0" font-size="13" font-weight="600" letter-spacing="3" fill="#8FA1B8">
       <animate attributeName="opacity" values="0;1" dur="0.7s" begin="1s" fill="freeze" />
-      <text x="240" y="196">FLUTTER ENGINEER</text>
-      <text x="240" y="220">FLUTTER TEAM LEAD</text>
+      <text x="240" y="196">Flutter Developer</text>
+      <text x="240" y="220">Mobile Tech Lead</text>
     </g>
   </g>
 
