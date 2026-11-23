@@ -1,32 +1,69 @@
-<p align="center"> <picture> <source media="(max-width: 680px)" srcset="assets/header-mobile.svg" /> <img src="assets/header.svg" width="100%" alt="Mahmoud Khalil — Flutter Engineer and Flutter Team Lead" /> </picture> </p> <p align="center"> <a href="https://www.linkedin.com/in/mahmoud-khalil-3683b6215"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI%2BPHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyNSAweiIvPjwvc3ZnPgo%3D&logoColor=white" alt="LinkedIn" /></a> <a href="mailto:Mahmoud.khalil.dev@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a> <a href="https://t.me/Mahm0o0d_kh"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a> <picture><img src="https://img.shields.io/badge/Mansoura,_Egypt-1F6FEB?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Mansoura, Egypt" /></picture> <br/> <a href="https://www.instagram.com/mahm0d_khalil/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a> <a href="https://www.facebook.com/mahmoud000khalil/"><img src="https://img.shields.io/badge/Facebook-0866FF?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a> </p> <p align="center"> <picture> <source media="(max-width: 680px)" srcset="assets/stats-mobile.svg" /> <img src="assets/stats.svg" width="100%" alt="4 years in production · 4+ flagship products · 500+ live on stores · 6 codebases behind them" /> </picture> </p>
-<picture><img src="assets/divider.svg" width="100%" alt="" /></picture>
+<p align="center">
+  <picture>
+    <source media="(max-width: 680px)" srcset="assets/header-mobile.svg" />
+    <img src="assets/header.svg" width="100%" alt="Mahmoud Khalil — Flutter Engineer and Flutter Team Lead" />
+  </picture>
+</p><p align="center">
+  <a href="https://mahmoudkhalil.vercel.app/en"><img src="https://img.shields.io/badge/Portfolio-1F6FEB?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Mahmoud Khalil’s portfolio" /></a>
+  <a href="https://www.linkedin.com/in/mahmoud-khalil-3683b6215"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI%2BPHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyNSAweiIvPjwvc3ZnPgo%3D&amp;logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:Mahmoud.khalil.dev@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" /></a>
+  <a href="https://t.me/Mahm0o0d_kh"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&amp;logo=telegram&amp;logoColor=white" alt="Telegram" /></a>
+  <picture><img src="https://img.shields.io/badge/Mansoura,_Egypt-1F6FEB?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white" alt="Mansoura, Egypt" /></picture>
+  <br/>
+  <a href="https://www.instagram.com/mahm0d_khalil/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram" /></a>
+  <a href="https://www.facebook.com/mahmoud000khalil/"><img src="https://img.shields.io/badge/Facebook-0866FF?style=for-the-badge&amp;logo=facebook&amp;logoColor=white" alt="Facebook" /></a>
+</p><p align="center">
+  <picture>
+    <source media="(max-width: 680px)" srcset="assets/stats-mobile.svg" />
+    <img src="assets/stats.svg" width="100%" alt="4 years in production · 4+ flagship products · 500+ live on stores · 6 codebases behind them" />
+  </picture>
+</p><picture><img src="assets/divider.svg" width="100%" alt="" /></picture>
 
 Flutter engineer and team lead. I work where Flutter stops and the platform begins — network extensions, tunnel providers, native Swift and Kotlin modules — and I own releases end to end, from signing through App Store & Play Store review.
-
 Live in the stores
-<div dir="ltr"> <img src="assets/icons/loungeclinic.jpg" width="48" align="left" alt="Lounge Clinic app icon" />
-Lounge Clinic<br/> Telemedicine with real-time chat, voice and video. Sole developer, Medical category, 16+<br/><br/> <a href="https://apps.apple.com/eg/app/lounge-clinic/id6753281731"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/appstorewhite.svg" /><img src="assets/badges/appstoreblack.svg" height="30" alt="Download Lounge Clinic on the App Store" /></picture></a>
-
-<br clear="left"/> <img src="assets/icons/teachwisefamily.jpg" width="48" align="left" alt="TeachWise Family app icon" />
-TeachWise Family<br/> Parent–child learning platform, Arabic RTL. Sole developer<br/><br/> <a href="https://apps.apple.com/eg/app/teachwise-family/id6754461403"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/appstorewhite.svg" /><img src="assets/badges/appstoreblack.svg" height="30" alt="Download TeachWise Family on the App Store" /></picture></a> <a href="https://play.google.com/store/apps/details?id=com.teachwise.family"><img src="assets/badges/googleplay.png" height="30" alt="Get TeachWise Family on Google Play" /></a>
-
-<br clear="left"/> <img src="assets/icons/alarrab.jpg" width="48" align="left" alt="Al-Arrab app icon" />
-Al-Arrab — ⁧الـعـراب⁩<br/> Real-estate brokerage platform: agent client management and sales pipeline. Arabic RTL<br/><br/> <a href="https://apps.apple.com/eg/app/id6779253224"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/appstorewhite.svg" /><img src="assets/badges/appstoreblack.svg" height="30" alt="Download Al-Arrab on the App Store" /></picture></a> <a href="https://play.google.com/store/apps/details?id=com.madar.alarrab"><img src="assets/badges/googleplay.png" height="30" alt="Get Al-Arrab on Google Play" /></a>
-
-<br clear="left"/> <img src="assets/icons/collects.jpg" width="48" align="left" alt="CollectS app icon" />
-CollectS<br/> Multi-vendor e-commerce platform: many brands, one storefront and checkout. Client under NDA, Shopping category<br/><br/> <a href="https://apps.apple.com/eg/app/collects/id6792508758"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/appstorewhite.svg" /><img src="assets/badges/appstoreblack.svg" height="30" alt="Download CollectS on the App Store" /></picture></a> <a href="https://play.google.com/store/apps/details?id=com.collects.buyer"><img src="assets/badges/googleplay.png" height="30" alt="Get CollectS on Google Play" /></a>
-
-<br clear="left"/> <img src="assets/icons/rqeab.jpg" width="48" align="left" alt="Rqeab app icon" />
-Rqeab — ⁧رقيب⁩<br/> DNS content filtering and parental control, built natively on NetworkExtension and VpnService<br/><br/> <a href="https://apps.apple.com/eg/app/rqeab/id6753948110"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/appstorewhite.svg" /><img src="assets/badges/appstoreblack.svg" height="30" alt="Download Rqeab on the App Store" /></picture></a>
-
-<br clear="left"/> </div> <br clear="left"/>
-Also shipped, clients under NDA — KUTHB · Elegance Pluss · A multi-tenant white-label platform behind 500+ client builds across both stores
+<div dir="ltr">
+  <img src="assets/icons/loungeclinic.jpg" width="48" align="left" alt="Lounge Clinic app icon" />
+  Lounge Clinic<br/>
+  Telemedicine with real-time chat, voice and video. Sole developer, Medical category, 16+<br/><br/>
+  <a href="https://apps.apple.com/eg/app/lounge-clinic/id6753281731"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/appstorewhite.svg" /><img src="assets/badges/appstoreblack.svg" height="30" alt="Download Lounge Clinic on the App Store" /></picture></a>
+  <br clear="left"/>
+  <img src="assets/icons/teachwisefamily.jpg" width="48" align="left" alt="TeachWise Family app icon" />
+  TeachWise Family<br/>
+  Parent–child learning platform, Arabic RTL. Sole developer<br/><br/>
+  <a href="https://apps.apple.com/eg/app/teachwise-family/id6754461403"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/appstorewhite.svg" /><img src="assets/badges/appstoreblack.svg" height="30" alt="Download TeachWise Family on the App Store" /></picture></a>
+  <a href="https://play.google.com/store/apps/details?id=com.teachwise.family"><img src="assets/badges/googleplay.png" height="30" alt="Get TeachWise Family on Google Play" /></a>
+  <br clear="left"/>
+  <img src="assets/icons/alarrab.jpg" width="48" align="left" alt="Al-Arrab app icon" />
+  Al-Arrab — ⁧الـعـراب⁩<br/>
+  Real-estate brokerage platform: agent client management and sales pipeline. Arabic RTL<br/><br/>
+  <a href="https://apps.apple.com/eg/app/id6779253224"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/appstorewhite.svg" /><img src="assets/badges/appstoreblack.svg" height="30" alt="Download Al-Arrab on the App Store" /></picture></a>
+  <a href="https://play.google.com/store/apps/details?id=com.madar.alarrab"><img src="assets/badges/googleplay.png" height="30" alt="Get Al-Arrab on Google Play" /></a>
+  <br clear="left"/>
+  <img src="assets/icons/collects.jpg" width="48" align="left" alt="CollectS app icon" />
+  CollectS<br/>
+  Multi-vendor e-commerce platform: many brands, one storefront and checkout. Client under NDA, Shopping category<br/><br/>
+  <a href="https://apps.apple.com/eg/app/collects/id6792508758"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/appstorewhite.svg" /><img src="assets/badges/appstoreblack.svg" height="30" alt="Download CollectS on the App Store" /></picture></a>
+  <a href="https://play.google.com/store/apps/details?id=com.collects.buyer"><img src="assets/badges/googleplay.png" height="30" alt="Get CollectS on Google Play" /></a>
+  <br clear="left"/>
+  <img src="assets/icons/rqeab.jpg" width="48" align="left" alt="Rqeab app icon" />
+  Rqeab — ⁧رقيب⁩<br/>
+  DNS content filtering and parental control, built natively on NetworkExtension and VpnService<br/><br/>
+  <a href="https://apps.apple.com/eg/app/rqeab/id6753948110"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/appstorewhite.svg" /><img src="assets/badges/appstoreblack.svg" height="30" alt="Download Rqeab on the App Store" /></picture></a>
+  <br clear="left"/>
+</div><br clear="left"/>Also shipped, clients under NDA — KUTHB · Elegance Pluss · A multi-tenant white-label platform behind 500+ client builds across both stores
 
 <picture><img src="assets/divider.svg" width="100%" alt="" /></picture>
-
 Stack
-<p> <picture><img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" /></picture> <picture><img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" /></picture> <picture><img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift" /></picture> <picture><img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin" /></picture> <picture><img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white" alt="Firebase" /></picture> <picture><img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC" /></picture> <picture><img src="https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=xcode&logoColor=white" alt="Xcode" /></picture> <picture><img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white" alt="Android Studio" /></picture> </p>
-Native — platform channels, NetworkExtension, VpnService, tunnel providers, background execution, Swift and Kotlin modules, deep linking
+<p>
+  <picture><img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&amp;logo=flutter&amp;logoColor=white" alt="Flutter" /></picture>
+  <picture><img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&amp;logo=dart&amp;logoColor=white" alt="Dart" /></picture>
+  <picture><img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&amp;logo=swift&amp;logoColor=white" alt="Swift" /></picture>
+  <picture><img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&amp;logo=kotlin&amp;logoColor=white" alt="Kotlin" /></picture>
+  <picture><img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&amp;logo=firebase&amp;logoColor=white" alt="Firebase" /></picture>
+  <picture><img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&amp;logo=webrtc&amp;logoColor=white" alt="WebRTC" /></picture>
+  <picture><img src="https://img.shields.io/badge/Xcode-147EFB?style=flat-square&amp;logo=xcode&amp;logoColor=white" alt="Xcode" /></picture>
+  <picture><img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=flat-square&amp;logo=androidstudio&amp;logoColor=white" alt="Android Studio" /></picture>
+</p>Native — platform channels, NetworkExtension, VpnService, tunnel providers, background execution, Swift and Kotlin modules, deep linking
 
 Architecture — Clean Architecture, MVVM, SOLID, BLoC, Cubit, get_it, injectable, freezed, multi-tenant white-label
 
@@ -43,10 +80,17 @@ Release — App Store Connect, Play Console, TestFlight, CI pipelines for build 
 Also — Crashlytics, DevTools profiling, --obfuscate, Arabic RTL and accessibility, leading a team of 3
 
 <picture><img src="assets/divider.svg" width="100%" alt="" /></picture>
-
 Why the repositories are private
 Client work under NDA. The apps above are the public half — installable and shipped by me. Architecture and technical detail are things I'm happy to walk through in a call.
 
 If it has to work offline, in Arabic, on an unreliable network, and still pass review — I have shipped that.
-
-<p align="center"> <br/> <picture><img src="assets/status.svg" alt="Open to interesting problems in Flutter and native mobile" /></picture> <br/><br/> Don't hesitate to reach out — you are most welcome. <br/><br/> <a href="mailto:Mahmoud.khalil.dev@gmail.com"><b>Mahmoud.khalil.dev@gmail.com</b></a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/mahmoud-khalil-3683b6215"><b>LinkedIn</b></a> </p>
+<p align="center">
+  <br/>
+  <picture><img src="assets/status.svg" alt="Open to interesting problems in Flutter and native mobile" /></picture>
+  <br/><br/>
+  Don't hesitate to reach out — you are most welcome.
+  <br/><br/>
+  <a href="mailto:Mahmoud.khalil.dev@gmail.com"><b>Mahmoud.khalil.dev@gmail.com</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/mahmoud-khalil-3683b6215"><b>LinkedIn</b></a>
+</p>
